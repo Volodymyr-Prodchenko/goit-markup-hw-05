@@ -622,10 +622,10 @@
         </p>
         <form class="contacts-form">
           <div class="contacts-form-field-wrapper">
-            <label for="user-name" class="contacts-form-field-label"
-              >Name</label
-            >
-            <div class="review-form-input-wrapper">
+            <label for="user-name" class="contacts-form-field-label">
+              Name
+              </label>
+            <div class="contacts-form-input-wrapper">
               <input
                 type="text"
                 class="contacts-form-input"
@@ -636,7 +636,7 @@
                 required
               />
               <svg class="contacts-form-field-icon" width="18" height="24">
-                <use href="./images/icons/sprite.svg#icon-person"></use>
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
@@ -655,7 +655,7 @@
                 required
               />
               <svg class="contacts-form-field-icon" width="18" height="24">
-                <use href="./images/icons/sprite.svg#icon-phone"></use>
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
@@ -671,8 +671,8 @@
                 id="user-email"
                 required
               />
-              <svg class="contacts-field-icon" width="18" height="24">
-                <use href="./images/icons/sprite.svg#icon-email"></use>
+              <svg class="contacts-form-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
@@ -688,6 +688,24 @@
               required
             ></textarea>
           </div>
+          <div class="contacts-form-checkbox-wrapper">
+            <input 
+            type="checkbox" 
+            class="contacts-form-privacy-checbox" 
+            id="privacy-policy"
+            name="privacy-policy"
+            value="true"
+            required/>
+            <label for="privacy-policy" class="contacts-form-checkbox-label">
+              <span class="contacts-form-own-checkbox visually-hidden">
+                <svg class="contacts-form-own-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+          <a class="privacy-policy-link" href="">Privacy Policy</a></label>
+          </div>
+          <button class="contacts-form-submint-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
